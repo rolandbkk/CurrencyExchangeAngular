@@ -72,7 +72,7 @@
                 <div class="row2">
                     <div class="from_area">
 
-                        <img ng-model="from_flag" src="{{img_url_from}}">
+                        <img ng-model="from_flag"  ng-src="{{img_url_from}}">
 
                         <div class="from_text"> {{from_label_output}} </div>
                   
@@ -82,7 +82,7 @@
 
                     <div class="to_area">
 
-                        <img ng-model="to_flag" src="{{img_url_to}}">
+                        <img ng-model="to_flag"  ng-src="{{img_url_to}}">
                         <div class="to_text"> {{to_label_output}} </div>
 
                         <div class="output_currency">{{from_num * ratio| limitTo:5}}</div>
