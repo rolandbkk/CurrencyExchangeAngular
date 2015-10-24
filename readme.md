@@ -10,4 +10,6 @@ Functionality
 -  Application will automatically update the result on every button press
 
 
+Live Demo:
+-  <http://rw-webdesign.com/Gomekki/-x/>
 
