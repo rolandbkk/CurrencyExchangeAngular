@@ -1,4 +1,4 @@
-# Currency Exchanger App
+# Currency Exchange App
 Angular + bootstrap
 
 Functionality
