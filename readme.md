@@ -11,5 +11,5 @@ Functionality
 
 
 Live Demo:
--  <http://rw-webdesign.com/Gomekki/>
+-  <http://rw-webdesign.com/Gomeeki/>
 
