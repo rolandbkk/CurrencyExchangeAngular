@@ -96,6 +96,7 @@ html {
     text-align: center;
     background: #1F3B50;
     font-weight: 100;
+    border: 1px solid #132533;
 }
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
@@ -170,6 +171,18 @@ input,
 .to_area {
     border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
+.side-menu-main {
+    display: block;
+    position: absolute;
+    width: 75%;
+    background: white;
+    z-index: 9999;
+    height: 100%;
+    left: -75%;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
 @media only screen and (max-width: 1221px) {
 
 .set-body-open {
@@ -187,18 +200,7 @@ input,
     width: 100%;
     position: relative;
 }
-.side-menu-main {
-    display: block;
-    position: absolute;
-    width: 75%;
-    background: white;
-    z-index: 9999;
-    height: 100%;
-    left: -75%;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
+
 .side-main-open {
     margin-left: -0px!important;
 }
@@ -354,7 +356,7 @@ input,
     input,
     .output_currency {
         font-size: 49px;
-        line-height: 92px;
+        line-height: 99px;
     }
 }
 
