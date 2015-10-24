@@ -85,7 +85,7 @@
                         <img ng-model="to_flag" src="{{img_url_to}}">
                         <div class="to_text"> {{to_label_output}} </div>
 
-                        <div class="output_currency">{{to_num | limitTo:5}}</div>
+                        <div class="output_currency">{{from_num * ratio| limitTo:5}}</div>
                     </div>
                 </div>
                 <!-- Main Area End -->
