@@ -13,7 +13,7 @@ function changeMode(fromlab,tolab,fromicon,toicon,ratiolab) {
            $scope.img_url_to = toicon;
            $scope.ratio = ratiolab;
 
-           $scope.to_num = parseInt($scope.from_num, 10)*$scope.ratio;
+        
 
 
  }
